@@ -1,0 +1,110 @@
+<Title>LAB 4</Title>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body style="background:#FF6969">
+<p><b>lab-4_06/01/2025<br>23BDS1069<br> PSS PRANAV</b>
+<div style="border:2px solid black;padding;10px;font=size:20px">
+<h1><center>Exercise-1</center></h1>
+<BR>
+<h1><center>CODE RELATED ELEMENTS.</center></h1>
+<pre>
+<code style="font-size:1.20rem">
+<font>
+#include <stdio.h>
+int main() {
+    int num, i;
+    printf("Enter a positive integer: ");
+    scanf("%d", &num);
+    printf("Factors of %d are: ", num);
+    for (i = 1; i <= num; ++i) {
+        if (num % i == 0) {
+            printf("%d ", i);
+        }
+    }
+    return 0;
+}
+
+area of the triangle = 1/2 x <var>b</var> x <var>h</var><
+</code>
+</pre>
+<p>This document can be saved in the device by pressing <kbd>Ctrl+s</kbd> .</p><br>
+<p><samp>File not found.<br>Press <kbd>F1</kbd> to continue.</samp></p>
+<br>
+</div>
+<BR>
+<div style="border:2px solid black;padding;10px;font=size:20px">
+<h1><center>WELCOME TO MY WEBSITE</center></h1>
+<br>
+<p>Your one-stop destination for information and resources.</p>
+<nav>
+<a href="Home">Home</a> |
+<a href="About">About</a> |
+<a href="Services">Services</a> |
+<a href="Contact">Contact</a>
+</nav>
+<h2><center>Main Article</center></h2>
+<p>This is the main content of the page. Here, you can include articles, blog posts, or any other
+important information you
+<br>want to highlight.</p><br><p>HTML5 introduce semantic elements that help sturcture a
+webpage more clearly and imporove
+accessibility.<br></p>
+<h3>Related Links</h3>
+<ul>
+<li><a href="https://www.w3schools.com/Html/">HTML Tutorial</a></li>
+<li><a href="https://www.w3schools.com/css/css_intro.asp">CSS Basics</a></li>
+<li><a href="https://www.w3schools.com/js/">JavaScript Guide</li>
+</ul>
+<p>&copy; 2023 MY Website.All rights reserved.</p>
+</div>
+<!--<frameset cols="25%,50%,25%">
+    <frame name="left" src="/html/top_frame.htm" />
+    <frame name="center" src="/html/main_frame.htm" />
+    <frame name="right" src="/html/bottom_frame.htm" /> <noframes>
+    <body>Your browser does not support frames.</body>
+    </noframes>
+    </frameset>-->
+	<BR>
+	<div style="border:2px solid black;padding;10px;font=size:20px">
+
+<h2><center>HTML Iframes example</center></h2>
+
+<iframe src="https://www.google.com" name="iframe_a" title="IframeExample" height="250" width="500"></iframe>
+<iframe src="https://www.youtube.com" name="iframe_b" title="IframeExample" height="250" width="500"></iframe>
+<iframe src="https://www.bing.com" name="iframe_c" title="IframeExample" height="250" width="500"></iframe>
+
+<p><a href="https://www.example.com" target="iframe_a">Refresh page 1</a></p>
+<p><a href="https://www.example.com" target="iframe_b">Refresh page 2</a></p>
+<p><a href="https://www.example.com" target="iframe_c">Refresh page 3</a></p>
+</div>
+<br>
+<div style="border:2px solid black;padding;10px;font=size:20px">
+    <h2><center>SVG</center></h2>
+	<svg width="400" height="350">
+    <circle cx="100" cy="170" r="40" stroke="black" stroke-width="2" fill="black"/>
+    <circle cx="150" cy="220" r="50" stroke="black" stroke-width="2" fill="black"/>
+    <circle cx="200" cy="170" r="40" stroke="black" stroke-width="2" fill="black"/>
+    <circle cx="130" cy="200" r="10" stroke="black" stroke-width="2" fill="white"/>
+    <circle cx="170" cy="200" r="10" stroke="black" stroke-width="2" fill="white"/>
+    <circle cx="130" cy="200" r="3" stroke="black" stroke-width="2" fill="black"/>
+    <circle cx="170" cy="200" r="3" stroke="black" stroke-width="2" fill="black"/>
+    <ellipse cx="150" cy="300" rx="70" ry="80" />
+	
+</svg>
+<svg width="300" height="350">
+<circle cx="150" cy="270" r="50" stroke="black" stroke-width="2" fill="white"/>
+<circle cx="150" cy="200" r="40" stroke="black" stroke-width="2" fill="white"/>
+<circle cx="150" cy="140" r="30" stroke="black" stroke-width="2" fill="white"/>
+<circle cx="140" cy="130" r="3" stroke="black" stroke-width="1" fill="black"/>
+<circle cx="160" cy="130" r="3" stroke="black" stroke-width="1" fill="black"/>
+<circle cx="150" cy="180" r="3" stroke="black" stroke-width="1" fill="black"/>
+<circle cx="150" cy="200" r="3" stroke="black" stroke-width="1" fill="black"/>
+<line x1="70" y1="160" x2="110" y2="200" stroke="black" stroke-width="2"/>
+<line x1="230" y1="160" x2="190" y2="200" stroke="black" stroke-width="2"/>
+<polygon points="150,140 160,145 150,145" fill="brown" stroke="black"/>
+</svg><br>
+
+</body>
+</html>
